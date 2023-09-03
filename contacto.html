@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./estilo.css">
+</head>
+<body>
+    <style>
+        /* Estilos para la grilla */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columnas igualmente espaciadas */
+            grid-gap: 20px; /* Espacio entre las celdas de la grilla */
+            padding: 20px;
+        }
+
+        /* Estilos para cada elemento de la grilla */
+        .grid-item {
+            background-color: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Estilos para las imágenes */
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Estilos para el texto de descripción */
+        .description {
+            margin-top: 10px;
+        }
+    </style>
+<div class="navbar">
+    <a href="./paisajes.html">Paisaje</a>
+    <a href="./anime.html">Anime</a>
+    <a href="./caricaturas.html">Caricaturas</a>
+    <div class="right-links">
+        <a href="./contacto.html">Contacto</a>
+        <a href="./acerca.html">acerca</a>
+    </div>
+</div>
+
+
+<div class="body-imagen">
+<div class="grid-container">
+    <div class="grid-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-1LiDrGcXVvKSr2avgEE4acQQgI884A7TPDkQOlYc7w&s" alt="Imagen 1">
+        <div class="description">
+            <h3>Juan</h3>
+            <p>Telefono: 2156498132.</p>
+        </div>
+    </div>
+    
+    <div class="grid-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-1LiDrGcXVvKSr2avgEE4acQQgI884A7TPDkQOlYc7w&s" alt="Imagen 2">
+        <div class="description">
+            <h3>Pedro</h3>
+            <p>Telefono: 21564951232</p>
+        </div>
+    </div>
+    </div>
+    <!-- Agrega más elementos de la grilla aquí -->
+</div>
+
+</body>
+
+</html>
